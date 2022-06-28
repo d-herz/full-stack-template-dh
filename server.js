@@ -17,6 +17,13 @@ MongoClient.connect(dbconnectionString)
     collection = db.collection('quotes')  //this is a unique collection name to the breaking-bad DB (ie update this to match future projects)
   })
 
-  app.listen( process.env.PORT || PORT, ()=> {
+//Middleware
+app.set('view engine', 'ejs') //This is for dynamically populating html (don't have to use)
+app.use(express.static('public'))
+app.use(express.urlencoded({extended:true}))
+app.use(express.json())
+app.use(cors())
+
+app.listen( process.env.PORT || PORT, ()=> {
     console.log(`Server is running on port = ${ process.env.PORT || PORT }`)
-  })
+})
