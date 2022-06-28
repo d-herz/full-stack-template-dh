@@ -1,4 +1,5 @@
 //This is my own version of the 'full-stack-template' forked & cloned from Mayan Wolfe's github (for coding along purposes and repetition)
+//DFH NOTE: Used Breaking Bad Quotes DB for connection, but obviously change that for different projects
 
 //1. Initialize npm and install dependencies: (npm i ____)
 // express, dotenv, cors, mongodb, ejs, nodemon (--save-dev)
