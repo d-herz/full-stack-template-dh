@@ -26,11 +26,14 @@
 
 //10. Create heroku repo
  (MAYAN recomends remove the .env file from the .gitignore file before pushing to heroku...but I think you can do the "heroku config: set DB_STRING = (string from mongo))
+ 
 // heroku login
 // heroku create simple-rap-api
 // echo "web: node server.js" > Procfile
 // git add . 
 // git commit -m "changes"
 // git push heroku main
+
+//heroku config: set DB_STRING = (string from mongo)
 
 //----Test Heroku Link
