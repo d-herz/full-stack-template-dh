@@ -20,9 +20,9 @@
 
 //6. Set middleware
 
-//8. Create Public and Views folders - add main.js and style.css to Public and index.ejs to Views
+//8. Create Public and Views folders - add main.js and style.css to Public and index.ejs to Views (DFH QUESTION: if we had/wanted to use HTML, would we add that to the Public folder?)
 
-//9. From root, init local git repo and commit
+//9. Add content to main.js, style.css, index.ejs
 
 //10. Create heroku repo
 
