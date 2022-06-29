@@ -25,7 +25,7 @@
 //9. Add content to main.js, style.css, index.ejs
 
 //10. Create heroku repo
-
+ (MAYAN recomends remove the .env file from the .gitignore file before pushing to heroku...but I think you can do the "heroku config: set DB_STRING = (string from mongo))
 // heroku login
 // heroku create simple-rap-api
 // echo "web: node server.js" > Procfile
